@@ -26,7 +26,7 @@ Mellojoyの商品一覧で新規掲載を確認し、在庫のある商品の選
 
 ## インストール
 1. Google ChromeまたはMicrosoft Edgeのアドオンにて、Tampermonkeyを探してインストールします。
-   （https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd）
+   https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd
 
 2. Tampermonkeyをクリックします。
 <img width="357" height="297" alt="image" src="https://github.com/user-attachments/assets/8be71d58-20ad-45ed-b3c8-a1e32383aa87" />
