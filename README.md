@@ -17,9 +17,37 @@ Mellojoyの商品一覧で新規掲載を確認し、在庫のある商品の選
 ## 制限事項
 - 決済情報の入力、本人認証、最終的な注文確定は自動化しません。
 - 転売目的ではないので、複数窓での実行を禁止しています。
+- プレゼント用にMellowjoyが何でもいいから1つ欲しい! の理由で作りましたので、狙った商品は選択しにくいです。
+  優先商品リストにワード（「ミルク」とか「トースト」とか）を入れれば狙いやすくはなります。
 
 ## 必要な環境
-- Tampermonkeyが利用できるブラウザ
+- Tampermonkeyが利用できるブラウザ(作者はMicrosoft Edgeにて動作確認しています)
 - Tampermonkeyのインストールと、対象サイトでのスクリプト実行許可
-(作者はMicrosoft Edgeにて動作確認しています)
+
+## インストール
+1. Google ChromeまたはMicrosoft Edgeのアドオンにて、Tampermonkeyを探してインストールします。
+   （https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd）
+
+2. Tampermonkeyをクリックします。
+<img width="357" height="297" alt="image" src="https://github.com/user-attachments/assets/8be71d58-20ad-45ed-b3c8-a1e32383aa87" />
+
+3. 「☑ 有効」にして、「ダッシュボード」をクリックします。
+<img width="419" height="320" alt="image" src="https://github.com/user-attachments/assets/800fba57-e71e-4cc0-a0e1-cad036b0b236" />
+
+4. 「+」を押すと新規ユーザースクリプトと表示されるので、mellojoy-stock.user.jsの中身を上書きします。
+   元からあるコードは全て削除してください。
+   記載したら、「Ctrl」+「s」キーを押して保存します。
+<img width="697" height="66" alt="image" src="https://github.com/user-attachments/assets/a4d7f39f-ad96-4b92-8a5d-2dd3a94f35c8" />
+
+6. 「インストール済みユーザースクリプト」に「Mellojoy 購入支援スクリプト」が表示されることを確認します。
+
+7. Mellowjoyの商品ページの右下にツールが表示されることを確認します。
+<img width="348" height="402" alt="image" src="https://github.com/user-attachments/assets/d1c10d5e-add1-46ac-86bd-03b129f6aebe" />
+
+8. 「監視開始」をクリックすると実行されます。
+   チェックアウトまでは自動ですが、決済情報入力は手動です。そこからは頑張ってください。
+   ※ 監視開始前に、必ずMellowjoyのショップにログインしておいてください。
+
+
+
 
